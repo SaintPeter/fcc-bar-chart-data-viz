@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+    margin: 30px auto 50px auto;
+    padding: 5px 0px;
+    background-color: white;
+    display: block;
+    width: 80vw;
+    box-shadow: 0 0 2vw 1vw rgba(10,10,10,0.5) ;
+}
+
+.container {
+    width: 80vw;
+    height: 40vw;
+    margin: auto;
+    box-shadow: 0 0 2vw 1vw rgba(10,10,10,0.5) ;
+    
+}
+
+body {
+    background-color: slategray;
+    font-family: sans-serif;
+}
+
+.svg-main {
+    display: block;
+    background-color: white;
+}
+
+.bar {
+    fill: lightblue;
+}
+
+.bar:hover {
+    fill: orange;
+}
+
+.tooltip {
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+    min-width: 80px;
+    height: auto;
+    background: none repeat scroll 0 0 lavender;
+    padding: 14px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.title {
+    text-anchor: middle;
+    font-size: 4vw;
+}
+
+.footnote {
+    text-anchor: end;
+    font-size: 1vw;
+}
+
+.footnote a {
+    fill: blue;
+}
+
+.footnote a:hover {
+    text-decoration: underline;
+}
+
+#fcc_foldout_toggler_background {
+    background-color: white !important;
+}
